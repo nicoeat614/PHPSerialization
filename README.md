@@ -4,4 +4,4 @@ This project started out of a random Freelancer.com project post. The customer w
 
 Since the Sharp Serialization Library was already written in C#, I simply converted the C# class to a PowerShell class to practice writing classes in PowerShell. And I was bored. 
 
-As it turned out, I was able to test the sample 
+As it turned out, I tested a few serialized php arrays and they worked. 

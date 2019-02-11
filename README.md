@@ -32,3 +32,9 @@ To see the results outputted directly to PS, type:
 ```
 [PHPSerialization]::new().Deserialize($phpstring) 
 ```
+![](/images/Results1.PNG)
+
+If you want to sort it by key:
+
+```
+      

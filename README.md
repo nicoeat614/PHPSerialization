@@ -37,4 +37,17 @@ To see the results outputted directly to PS, type:
 If you want to sort it by key:
 
 ```
+$phpdata = [PHPSerialization]::new().Deserialize($phpstring)
+$phpdata.GetEnumerator() | Sort Key
+```
+![](/images/Sort.png)
+
+Finally, if you want to convert the data to JSON:
+
+```
+ConvertTo-Json -InputObject $phpdata
+```
+![](/images/ConvertToJSON.png)
       
+## Final Thoughts
+Again, this came out of me trying my first crack at converting a C# class to a PowerShell class as well as having a strong belief that PowerShell can be used for more than just "Windows Administrative" tasks as many would like to believe. Many thinks to the original C# author Matt Palmerlee and Gordon Breuer for the PHP Serialization. 
